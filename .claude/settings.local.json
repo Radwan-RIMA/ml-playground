@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(pip install *)",
+      "Bash(python -m py_compile app.py pages/1_📊_Dataset.py pages/2_🎯_Train_Model.py pages/3_📈_Visualizations.py \"pages/4_⚖️_Model_Comparison.py\" pages/5_🔮_Predictions.py pages/6_📖_About.py)",
+      "Bash(python -m py_compile utils/comparison.py utils/explainer.py utils/metrics.py utils/plots.py)"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "iris": {
+    "name": "Iris",
+    "rows": 150,
+    "features": 4,
+    "classes": 3,
+    "task": "classification",
+    "description": "Classic dataset with measurements of iris flowers from three species. Great for beginners.",
+    "target": "species",
+    "feature_names": ["sepal length (cm)", "sepal width (cm)", "petal length (cm)", "petal width (cm)"]
+  },
+  "wine": {
+    "name": "Wine",
+    "rows": 178,
+    "features": 13,
+    "classes": 3,
+    "task": "classification",
+    "description": "Chemical analysis of wines from three Italian cultivars. Good for multi-class classification.",
+    "target": "wine_class",
+    "feature_names": []
+  },
+  "breast_cancer": {
+    "name": "Breast Cancer",
+    "rows": 569,
+    "features": 30,
+    "classes": 2,
+    "task": "classification",
+    "description": "Diagnostic features of breast mass cell nuclei. Binary classification: malignant vs benign.",
+    "target": "diagnosis",
+    "feature_names": []
+  },
+  "digits": {
+    "name": "Digits",
+    "rows": 1797,
+    "features": 64,
+    "classes": 10,
+    "task": "classification",
+    "description": "8x8 pixel images of handwritten digits (0–9). Good for multi-class classification.",
+    "target": "digit",
+    "feature_names": []
+  },
+  "iris_clustering": {
+    "name": "Iris (Clustering)",
+    "rows": 150,
+    "features": 4,
+    "classes": null,
+    "task": "clustering",
+    "description": "Iris dataset without labels — use for K-Means clustering experiments.",
+    "target": null,
+    "feature_names": ["sepal length (cm)", "sepal width (cm)", "petal length (cm)", "petal width (cm)"]
+  },
+  "customer_segmentation": {
+    "name": "Customer Segmentation",
+    "rows": 200,
+    "features": 5,
+    "classes": null,
+    "task": "clustering",
+    "description": "Synthetic customer data for market segmentation with 3 natural clusters.",
+    "target": null,
+    "feature_names": ["age", "income", "spending_score", "tenure", "purchase_freq"]
+  }
+}
